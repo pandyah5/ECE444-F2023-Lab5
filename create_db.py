@@ -1,8 +1,7 @@
 # create_db.py
 
 
-from app import app, db
-from models import Post
+from project.app import app, db
 
 
 with app.app_context():
